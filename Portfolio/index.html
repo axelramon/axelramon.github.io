@@ -87,11 +87,11 @@ body, html {
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center">ABOUT ME</h3>
   <p class="w3-center"><em>I love photography</em></p>
-  <p>My name is Axel Izaguirre i attend Mount Zion High school, ia m 15 years old. One of my intrest is to dress with fashon clothing, I believe that clothing plays a big role in your first impresiion because a first impresion cant be change and i also believe describes who you are and how you feel about your self.
-   Getting into my music likes, i like rap and mexcian music.
-    my favorite rapper is kap g. my favortie meican singer is El Fantasma. 
-    I was boen in mexico, Cerritos San Luis Potosi on apirl 5, 2003.
-    my dream car is modifide NISSAN GT-R R-34</p>
+  <p>My name is Axel Izaguirre I attend Mount Zion High school, I am 15 years old. One of my intrest is to dress with fashon clothing, I believe that clothing plays a big role in your first impresiion because a first impresion cant be change and I also believe describes who you are and how you feel about your self.
+   Getting into my music likes, I like rap and mexican music.
+    My favorite rapper is kap g. My favortie mexican singer is El Fantasma. 
+    I was born in Mexico, Cerritos San Luis Potosi on apirl 5, 2003.
+    My dream car is modifide NISSAN GT-R R-34</p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
       <p><b><i class="fa fa-user w3-margin-right"></i>Axel Izaguirre</b></p><br>
@@ -116,7 +116,7 @@ body, html {
   </div>
   <p class="w3-wide"><i class="fa fa-photo"></i>Dressing</p>
   <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:95%">95%</div>
   </div>
 </div>
 
@@ -219,10 +219,10 @@ body, html {
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Georgia, US<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: (706) 501-2020<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: Axel.izaguirre@scholar.smashprogram.org
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: (678) 783-9902<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: polloiza@icloud.com
       </div>
-      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+      <p>Swing by for a cup of <i class="fa fa-cloud"></i>, or leave me a note:</p>
       <form action="/action_page.php" target="_blank">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
@@ -254,52 +254,3 @@ body, html {
   </div>
   <p>Powered by <a href="https://www.instagram.com/atl.migo/?hl=en" title="W3.CSS" target="_blank" class="w3-hover-text-green">Axel Izaguirre</a></p>
 </footer>
- 
-<!-- Add Google Maps -->
-<script>
-function myMap()
-{
-  myCenter=new google.maps.LatLng(41.878114, -87.629798);
-  var mapOptions= {
-    center:myCenter,
-    zoom:12, scrollwheel: false, draggable: false,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
-
-  var marker = new google.maps.Marker({
-    position: myCenter,
-  });
-  marker.setMap(map);
-}
-
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-
-// Change style of navbar on scroll
-window.onscroll = function() {myFunction()};
-function myFunction() {
-    var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-    } else {
-        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-    }
-}
-
-// Used to toggle the menu on small screens when clicking on the menu button
-function toggleFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
